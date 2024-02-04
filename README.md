@@ -2,6 +2,7 @@
 # Next Store Locator Test
 
 A React component for easily integrating Google Maps Store Locator feature into Next.js applications.
+Check [working example](https://next-store-locator-pibyka5be-darkmasta.vercel.app/).
 
 ## Installation
 
