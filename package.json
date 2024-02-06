@@ -1,5 +1,5 @@
 {
-  "name": "next-store-locator-test",
+  "name": "next-store-locator",
   "version": "1.0.6",
   "description": "React port of jquery store-locator plugin.",
   "type": "module",

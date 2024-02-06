@@ -1,5 +1,5 @@
 
-# Next Store Locator Test
+# Next Store Locator 
 
 A React component for easily integrating Google Maps Store Locator feature into Next.js applications.
 Check [working example](https://next-store-locator-pibyka5be-darkmasta.vercel.app/).
@@ -7,24 +7,24 @@ Check [working example](https://next-store-locator-pibyka5be-darkmasta.vercel.ap
 ## Installation
 
 ```bash
-npm install next-store-locator-test
+npm install next-store-locator
 # or
-yarn add next-store-locator-test
+yarn add next-store-locator
 ```
 
 ## Usage
 
-First, import the CSS for `next-store-locator-test` at the top of your application or component to ensure the styles are loaded:
+First, import the CSS for `next-store-locator` at the top of your application or component to ensure the styles are loaded:
 
 ```javascript
-import 'next-store-locator-test/dist/style.css';
+import 'next-store-locator/dist/style.css';
 ```
 
 Here's a basic example to integrate the `NextStoreLocator` component into your Next.js app:
 
 ```jsx
 import React, { useEffect, useState } from 'react';
-import NextStoreLocator from 'next-store-locator-test';
+import NextStoreLocator from 'next-store-locator';
 
 const mapOptions = {
   center: { lat: 40.7128, lng: -74.0060 },
